@@ -15,7 +15,9 @@ const Projects = () => {
         <h1 className=" ">
           My <span className="spanText">Projects</span>
         </h1>
-        <p>Here are a few design projects I've worked on recently.</p>
+        <p className="subText">
+          Here are a few design projects I've worked on recently.
+        </p>
       </div>
       <Row xs={1} sm={1} md={2} lg={3} xl={3} className="gy-4">
         {projects.map((project) => (
