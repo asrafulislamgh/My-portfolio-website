@@ -1,7 +1,38 @@
 .banner-background {
-  /* background-image: url(); */
+  background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/White-Desk-Simple-Background-Image-.jpg");
   /* background-color: antiquewhite; */
-  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   position: relative;
   padding: 10%;
+}
+.banner-text {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+}
+.icons {
+  font-size: 1.5rem;
+  color: rgb(17, 17, 17);
+}
+.icons:hover {
+  color: #ff9800;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.icons2 {
+  font-size: 1.5rem;
+  color: #ff9800;
+}
+.icons2:hover {
+  color: rgb(192, 192, 192);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }

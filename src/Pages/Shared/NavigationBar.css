@@ -1,0 +1,15 @@
+.navigationContainer {
+  background-color: #353353;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  color: #f2f2f2 !important;
+}
+.common-btn {
+  background-color: #424064 !important;
+  border: 1px solid white;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}

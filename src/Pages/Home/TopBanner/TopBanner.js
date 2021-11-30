@@ -1,7 +1,8 @@
 import React from "react";
 import "./TopBanner.css";
 import profilePhoto from "../../../img/Profile-pic.png";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Nav, Row } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 const TopBanner = () => {
   return (
@@ -15,17 +16,53 @@ const TopBanner = () => {
           xl={2}
           className="text-center gy-5 d-flex justify-content-between align-items-center"
         >
-          <Col>
-            <div>
+          <Col data-aos="fade-right" data-aos-offset="300">
+            <div style={{ borderRadius: "20px" }} className="banner-text">
               <p>Hi there, I'm</p>
-              <h1>Asraful Islam</h1>
+              <h1 className="display-3 fw-bold">
+                <span>Asraful </span>Islam
+              </h1>
               <h4>A Junior MERN Stack Developer</h4>
-              <Button className="mt-4">Contact Now</Button>
+              <div>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/asrafulislamgh"
+                >
+                  <i className="icons me-3 fab fa-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.facebook.com/asraful.tanju"
+                >
+                  <i className="icons me-3 fab fa-linkedin"></i>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/asrafulislamgh"
+                >
+                  <i className="icons me-3 fab fa-facebook"></i>
+                </a>
+              </div>
+              <Nav.Link
+                to="/home#contact"
+                as={HashLink}
+                activeStyle={{ color: "#fff" }}
+              >
+                <Button className="common-btn mt-3">Contact Now</Button>
+              </Nav.Link>
             </div>
           </Col>
-          <Col>
+          <Col data-aos="fade-left" data-aos-offset="300">
             <div>
-              <img className="w-75" src={profilePhoto} alt="" />
+              <img
+                style={{ borderRadius: "50%", border: "10px solid #ff7f50" }}
+                className="img-fluid"
+                src={profilePhoto}
+                alt=""
+              />
             </div>
           </Col>
         </Row>
