@@ -34,14 +34,14 @@ const TopBanner = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.facebook.com/asraful.tanju"
+                  href="https://www.linkedin.com/in/asrafulislam-dev/"
                 >
                   <i className="icons me-3 fab fa-linkedin"></i>
                 </a>
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/asrafulislamgh"
+                  href="https://www.facebook.com/asraful.tanju"
                 >
                   <i className="icons me-3 fab fa-facebook"></i>
                 </a>

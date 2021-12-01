@@ -9,7 +9,11 @@ const About = () => {
       <Container id="about" className="pt-5">
         <Row className="d-flex justify-content-center align-items-center">
           <Col xl={4} lg={4} md={5} sm={5} xs={8}>
-            <div className="text-center mb-3 text-white">
+            <div
+              className="text-center mb-3 text-white"
+              data-aos="fade-down"
+              data-aos-offset="300"
+            >
               <img
                 className="doctor-img my-3"
                 style={{ width: "200px" }}
@@ -28,6 +32,8 @@ const About = () => {
             borderRadius: "20px",
           }}
           className="text-center text-white mt-5"
+          data-aos="fade-up"
+          data-aos-offset="200"
         >
           <h2>
             Hi, I’m <span className="spanText">Asraful</span>. Nice to meet you.
@@ -86,19 +92,19 @@ const About = () => {
             </p>
           </div>
           <Row>
-            <Col>
+            <Col data-aos="fade-right" data-aos-offset="300">
               <h4>Graduation</h4>
               <h5>Bsc in Computer Science and Engineering (CSE)</h5>
               <p>Green University of Bangladesh</p>
               <p>GPA 3.80 out of 4.00</p>
             </Col>
-            <Col>
+            <Col data-aos="fade-up" data-aos-offset="300">
               <h4>Diploma Engineering</h4>
               <h5>Diploma in Graphic Design</h5>
               <p>Green University of Bangladesh</p>
               <p>GPA 3.47 out of 4.00</p>
             </Col>
-            <Col>
+            <Col data-aos="fade-left" data-aos-offset="300">
               <h4>Secondary School Certificate (SSC)</h4>
               <h5>Department of Business Studies</h5>
               <p>Madartek Hight School</p>
