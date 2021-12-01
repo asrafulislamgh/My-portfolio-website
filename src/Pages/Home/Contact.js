@@ -21,7 +21,7 @@ const Contact = () => {
           console.log(result.text);
           Swal.fire(
             "Good job!",
-            "Thank you for conatacting me. I will response you in a asap.",
+            "Thank you for conatacting me. I will response you asap.",
             "success"
           );
           e.target.reset();

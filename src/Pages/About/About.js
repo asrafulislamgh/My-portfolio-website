@@ -57,14 +57,14 @@ const About = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.facebook.com/asraful.tanju"
+              href="https://www.linkedin.com/in/asrafulislam-dev/"
             >
               <i className="icons2 me-3 fab fa-linkedin"></i>
             </a>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/asrafulislamgh"
+              href="https://www.facebook.com/asraful.tanju"
             >
               <i className="icons2 me-3 fab fa-facebook"></i>
             </a>
