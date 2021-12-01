@@ -18,7 +18,7 @@ const NavigationBar = () => {
           fixed="top"
           collapseOnSelect
           expand="lg"
-          className="text-white navigationContainer"
+          className="text-white navigationContainer py-3"
         >
           <Container container>
             <Navbar.Brand style={{ fontWeight: "bold" }}>
@@ -31,37 +31,42 @@ const NavigationBar = () => {
             <Navbar.Collapse id="navbarScroll">
               <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
                 <Nav.Link
+                  className="navbar-item"
                   as={HashLink}
-                  activeStyle={{ color: "#fff" }}
+                  activeStyle={{ color: "#ff9800" }}
                   to="/home#home"
                 >
                   Home
                 </Nav.Link>
                 <Nav.Link
+                  className="navbar-item"
                   to="/about#about"
                   as={HashLink}
-                  activeStyle={{ color: "#fff" }}
+                  activeStyle={{ color: "#ff9800" }}
                 >
                   About Me
                 </Nav.Link>
                 <Nav.Link
+                  className="navbar-item"
                   to="/home#projects"
                   as={HashLink}
-                  activeStyle={{ color: "#fff" }}
+                  activeStyle={{ color: "#ff9800" }}
                 >
                   Projects
                 </Nav.Link>
                 <Nav.Link
+                  className="navbar-item"
                   to="/blogs"
                   as={NavLink}
-                  activeStyle={{ color: "#fff" }}
+                  activeStyle={{ color: "#ff9800" }}
                 >
                   Blogs
                 </Nav.Link>
                 <Nav.Link
+                  className="navbar-item"
                   to="/home#contact"
                   as={HashLink}
-                  activeStyle={{ color: "#fff" }}
+                  activeStyle={{ color: "#ff9800" }}
                 >
                   Contact Me
                 </Nav.Link>

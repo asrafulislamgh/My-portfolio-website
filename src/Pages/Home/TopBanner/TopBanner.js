@@ -20,7 +20,7 @@ const TopBanner = () => {
             <div style={{ borderRadius: "20px" }} className="banner-text">
               <p>Hi there, I'm</p>
               <h1 className="display-3 fw-bold">
-                <span>Asraful </span>Islam
+                <span className="spanText">Asraful </span>Islam
               </h1>
               <h4>A Junior MERN Stack Developer</h4>
               <div>
@@ -49,7 +49,7 @@ const TopBanner = () => {
               <Nav.Link
                 to="/home#contact"
                 as={HashLink}
-                activeStyle={{ color: "#fff" }}
+                activeStyle={{ color: "#ff9800" }}
               >
                 <Button className="common-btn mt-3">Contact Now</Button>
               </Nav.Link>
@@ -58,7 +58,7 @@ const TopBanner = () => {
           <Col data-aos="fade-left" data-aos-offset="300">
             <div>
               <img
-                style={{ borderRadius: "50%", border: "10px solid #ff7f50" }}
+                style={{ borderRadius: "50%", border: "10px solid #ff9800" }}
                 className="img-fluid"
                 src={profilePhoto}
                 alt=""

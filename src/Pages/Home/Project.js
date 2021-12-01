@@ -1,13 +1,35 @@
 import React from "react";
-import { Card, CardGroup, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Project.css";
 
 const Project = ({ project }) => {
-  const { id, subtext, name, img, link, tools } = project;
+  const { id, subtext, img, link, tools } = project;
   return (
     <div>
       <div data-aos="zoom-in-up" data-aos-offset="300">
-        <CardGroup>
+        <div className="project-container">
+          <img className="project-img img-fluid" src={img} alt="" />
+          <div className="project-info text-center d-flex justify-center align-items-center">
+            <div className="">
+              <p>{subtext}</p>
+              <p>
+                <small className="subText">{tools}</small>
+              </p>
+              <Link to={`/${id}`}>
+                <Button variant="dark" className="common-btn mb-3">
+                  Detail
+                </Button>
+              </Link>
+              <a href={link} rel="noreferrer" target="_blank">
+                <Button variant="dark" className="common-btn mb-3 ms-lg-3">
+                  Live Preview
+                </Button>
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <CardGroup>
           <Card className="card-container text-center border-0">
             <Card.Img variant="top" src={""} />
             <Card.Body className="card-body pb-1">
@@ -49,7 +71,7 @@ const Project = ({ project }) => {
               </a>
             </Card.Footer>
           </Card>
-        </CardGroup>
+        </CardGroup> */}
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ const Contact = () => {
       className="contact-bg"
       style={{ marginTop: "150px", backgroundColor: "#ccc" }}
     >
-      <div className="innerInfo container">
+      <div className="innerInfo container pt-5">
         <div className="text-center py-5">
           <h1 className=" text-white">
             <span className="spanText">Contact</span> Me

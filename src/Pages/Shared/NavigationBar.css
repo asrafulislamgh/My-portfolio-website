@@ -13,3 +13,7 @@
 .navbar-toggler-icon {
   color: white !important;
 }
+.navbar-item:hover {
+  color: #ff9800 !important;
+  /* border-bottom: 1px solid #ff9800; */
+}

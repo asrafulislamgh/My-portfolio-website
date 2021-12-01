@@ -11,6 +11,7 @@ import Loader from "react-loader-spinner";
 import ProjectDetails from "./Pages/ProjectDetails/ProjectDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ParticleBackground from "./ParticleBackground/ParticleBackground";
 
 AOS.init();
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Router>
         {/* {loading ? <Line /> : "Thank you"} */}
         <NavigationBar />
+        <ParticleBackground />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/home" element={<Home />}></Route>
